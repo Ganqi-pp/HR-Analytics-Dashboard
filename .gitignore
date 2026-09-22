@@ -1,0 +1,9 @@
+.idea/
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# 保留 data 文件夹里的数据，其余 CSV 忽略
+*.csv
+!data/*.csv
